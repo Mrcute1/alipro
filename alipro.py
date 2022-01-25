@@ -205,7 +205,6 @@ class ngentod:
             while True:
                 pwx = raw_input(' %s[?] set password :%s '%(P,K))
                 if pwx == '':
-                    print '\n %s[!] dont be empty'%(M)
                 elif len(pwx)<=5:
                     print '\n %s[!] password minimaum6 character'%(M)
                 else:
